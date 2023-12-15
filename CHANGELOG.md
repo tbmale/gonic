@@ -1,5 +1,21 @@
 # Changelog
 
+### [0.16.3](https://www.github.com/sentriz/gonic/compare/v0.16.2...v0.16.3) (2023-12-15)
+
+
+### Features
+
+* **lastfm:** strip copyright text from albumInfo/artistInfo responses ([aa82b94](https://www.github.com/sentriz/gonic/commit/aa82b944b794ac07b41a34aeb2b4cc365a2666ef))
+* **subsonic:** expose track musicbrainz id ([f98b232](https://www.github.com/sentriz/gonic/commit/f98b2326da31c15192f1c3b4bb17dcbfa59a058a))
+* **subsonic:** return http form post opensubsonic extension key ([e8ae1c1](https://www.github.com/sentriz/gonic/commit/e8ae1c1d406c7013b2a739dd13bac3076bde641f))
+
+
+### Bug Fixes
+
+* **db:** add double index for right side of unique compound indexes ([d640a9f](https://www.github.com/sentriz/gonic/commit/d640a9fc065bd3908968abacbd5ac080331c3e25)), closes [#426](https://www.github.com/sentriz/gonic/issues/426)
+* **docker:** fix sqlite3 musl build ([433829d](https://www.github.com/sentriz/gonic/commit/433829dc4f43f3be83a99cb54099be4f781dcf7d))
+* **listenbrainz:** set track length submission and include submission client details ([#424](https://www.github.com/sentriz/gonic/issues/424)) ([b27c02f](https://www.github.com/sentriz/gonic/commit/b27c02fc894510b714c129e898fd0e6792d017b4))
+
 ### [0.16.2](https://www.github.com/sentriz/gonic/compare/v0.16.1...v0.16.2) (2023-11-30)
 
 
